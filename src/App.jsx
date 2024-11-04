@@ -37,7 +37,7 @@ function App() {
 
     return (
         <div className="App">
-            <h1>SIP Calculator with Inflation and Step-Up Adjustment</h1>
+            <h1>SIP Calculator with Inflation and Step-Up Adjustments</h1>
             <form onSubmit={handleCalculate}>
                 <div>
                     <label>Monthly Investment (₹):</label>
