@@ -20,7 +20,7 @@ function App() {
         }
 
         try {
-            const response = await axios.post('https://sip-rh96.onrender.com/calculate-sip', {
+            const response = await axios.post('https://backendsip.vercel.app/calculate-sip', {
                 monthlyInvestment: parseFloat(monthlyInvestment),
                 annualInterestRate: parseFloat(annualInterestRate),
                 investmentPeriodYears: parseFloat(investmentPeriodYears),
